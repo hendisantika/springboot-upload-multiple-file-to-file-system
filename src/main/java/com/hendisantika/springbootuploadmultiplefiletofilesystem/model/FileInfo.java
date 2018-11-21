@@ -1,6 +1,8 @@
 package com.hendisantika.springbootuploadmultiplefiletofilesystem.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * Created by IntelliJ IDEA.
@@ -13,6 +15,8 @@ import lombok.Data;
  */
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class FileInfo {
     private String filename;
     private String url;
